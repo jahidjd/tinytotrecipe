@@ -1,0 +1,116 @@
+.bodyHeader{
+    height: 350px;
+    width: auto;
+    background-color: black;
+}
+.bodyHeaderText{
+    text-align: center;
+    margin-top: 25px;
+}
+.babyFoodiesText{
+    color: white;
+    margin-top: 52px;
+    font-size: 45px;
+    margin-left: 19px;
+}
+.babyFoodiesTextShort{
+    color: white;
+    margin-left: 19px;
+    font-size: 20px;
+}
+.app{
+    color: yellow;
+}
+.bodyHeaderImage{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 37px;
+}
+.bodyHeaderImage:hover{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 37px;
+    border-radius: 100px;
+}
+
+/* body header end */
+/* main body start */
+.mainBody{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.community{
+    font-size: 39px;
+    margin-top: 130px;
+}
+.reg{
+    margin-top: 20px;
+    height: 50px;
+    width: 236px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+/* recipes section */
+.search{
+    text-align: center;
+}
+.ss{
+    margin-top: 134px;
+    border-radius: 69px;
+}
+.in{
+    border-radius: 42px;
+    height: 52px;
+    text-align: center;
+    width: 320px;
+}
+.addRecipes{
+    padding-left: 206px;
+}
+.viewAll{
+    text-align: end;
+}
+.addRecipeTag{
+    text-decoration: none;
+    color: white;
+}
+.addRecipeTag:hover{
+    text-decoration: none;
+    color: black;
+}
+/* add Recipes */
+.addRe{
+    color: white;
+    margin-top: 134px;
+}
+
+.viewImage{
+    margin-top: 80px;
+}
+.se{
+    color: white;
+    font-size: 22px;
+    margin-top: -7px;
+    border-radius: 50px;
+}
+.se:hover{
+    background-color: white;
+    color: black;
+}
+.prifile{
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 130px;
+    font-size: 50px;
+
+}
+body {
+   
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
