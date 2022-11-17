@@ -19,7 +19,8 @@ return new class extends Migration
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
             $table->string('recipe_name','100');
             $table->text('ingredients');
-            $table->json('steps');
+            // $table->json('steps');
+            $table->json('steps')->nullable()->default(null)->change();
             $table->string('cook_time','30');
             $table->string('prep_time','30');
             $table->string('serves','30');
