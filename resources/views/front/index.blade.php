@@ -217,12 +217,14 @@ $('#search').on('click',function(){
                      
                   },
                success:function(data) {
-                  let dta = data.data
                   
+                  if(data.status=='true'){
+                    let dta = data.data
                   if(dta!=''){
                     let tr =''
                     $.each(dta, function(index, value) {
                         // console.log(value.recipe_name);
+                        
                         
                             // tr+= '<div class="row" >'
                             tr += '<div class="col-md-3 col-lg-3 col-xs-3 ">'
@@ -230,7 +232,7 @@ $('#search').on('click',function(){
                             tr+='<h4><a href="{{route('viewRecipe',$r->id)}}" class="addRecipeTag" style="color: black">'+value.recipe_name+'</a></h4>'
                             tr+='</div>'
                             // tr+='</div>'
-                        
+                           
                     
                     });
                     
@@ -241,6 +243,7 @@ $('#search').on('click',function(){
                     alert('We cann\'t find what you are lookhing for')
                     $('#result').html(tr)
                   }
+                }
                   
 
 
